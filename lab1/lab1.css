@@ -1,0 +1,72 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-image: url('gg.jpg'); /* Заміна на ваше зображення */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 120vh;
+}
+
+.registration-form {
+    background-color: rgba(255, 255, 255, 0.85); 
+    border-radius: 15px; /* Закруглені кути */
+    padding: 30px; 
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3); /* Більша тінь */
+    width: 450px; /* Ширина форми */
+    position: relative;
+}
+
+h1 {
+    text-align: center;
+    color: #1761ab; /* Колір тексту заголовка */
+    margin-bottom: 25px;
+}
+
+label {
+    font-weight: bold;
+    color: #333; /* Колір тексту */
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="date"],
+select {
+    width: 100%;
+    padding: 12px; /* Внутрішні відступи */
+    margin: 10px 0 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px; /* Закруглені кути полів */
+    box-sizing: border-box;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="tel"]:focus,
+input[type="date"]:focus,
+select:focus {
+    border-color: #009688; /* Колір рамки при фокусі */
+    outline: none;
+}
+
+button {
+    background-color: #009688; /* Колір кнопки */
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 8px; /* Закруглені кути кнопки */
+    cursor: pointer;
+    width: 100%;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #00796b; /* Колір кнопки при наведені */
+}
